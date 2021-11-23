@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+body { font-family: 'Raleway', sans-serif; font-weight: 700; color: white;
+background-color:#4E4D4D;}
+
+header { width:100vw;; position:fixed; }
+
+
+
+h1 { font-weight: 800;font-size: 5rem;}
+
+
+.navbar {background-image: linear-gradient(225deg, #9ce5eb 0, #9ce4f0 3.33%, #9de3f5 6.67%, #a0e2f9 10%, #a4e1fd 13.33%, #aae0ff 16.67%, #b0deff 20%, #b7dcff 23.33%, #bedbff 26.67%, #c6d9ff 30%, #ced7ff 33.33%, #d6d4ff 36.67%, #ded2fe 40%, #e5d0fb 43.33%, #eccff7 46.67%, #f2cdf2 50%, #f8cced 53.33%, #fccae7 56.67%, #ffcae1 60%, #ffc9db 63.33%, #ffc9d5 66.67%, #ffc9cf 70%, #ffc9c9 73.33%, #ffcac4 76.67%, #ffcbbf 80%, #ffcdba 83.33%, #ffceb6 86.67%, #fcd0b2 90%, #f7d2b0 93.33%, #f2d4ae 96.67%, #edd6ad 100%);background-color: lawngreen;};
+ 
+.nombre h1 { margin-left: 3em;}
+
+h2 { font-weight: 700; font-size: 3rem; color:#4E4D4D;position: relative; top: 4.5em; border: 1px solid white;background-image: linear-gradient(225deg, #9ce5eb 0, #9ce4f0 3.33%, #9de3f5 6.67%, #a0e2f9 10%, #a4e1fd 13.33%, #aae0ff 16.67%, #b0deff 20%, #b7dcff 23.33%, #bedbff 26.67%, #c6d9ff 30%, #ced7ff 33.33%, #d6d4ff 36.67%, #ded2fe 40%, #e5d0fb 43.33%, #eccff7 46.67%, #f2cdf2 50%, #f8cced 53.33%, #fccae7 56.67%, #ffcae1 60%, #ffc9db 63.33%, #ffc9d5 66.67%, #ffc9cf 70%, #ffc9c9 73.33%, #ffcac4 76.67%, #ffcbbf 80%, #ffcdba 83.33%, #ffceb6 86.67%, #fcd0b2 90%, #f7d2b0 93.33%, #f2d4ae 96.67%, #edd6ad 100%);background-color: lawngreen;}
+
+.col-2 { border: 1px solid white;}
+
+.col-md-10 {border: 1px solid white;}
+
+.guia {height: 100vh;}
+
+h3{font-weight: 700;}
+
+.mifoto {
+    width: 95%; opacity: 75%; filter: grayscale(100); box-shadow: 10px 15px 25px #343434; display: block;
+
+}
+
+p{ font-size: 1.25rem; font-weight: 400;}
+
+.espacio {
+    border-color: transparent;
+}
+
+.trabajo {
+    transition:2s;
+}
+
+.trabajo:hover {transform:scale(1.1);
+    cursor: pointer;}
+
+@media (max-width: 767px){
+    h1 { font-size:3rem; margin-left: 1rem;}
+    .nombre {margin-top: 10rem;}
+    h2{font-size:2rem;top:8rem; margin: none;}
+    
+    .col-md-10 {
+        border: none;
+    }
+
+    .col-2 {
+        border: none;
+    }
+
+    .col-2 img{display: none;}
+    .col-2 {height: 20vh;}
+
+    p{font-size: 1rem;}
+
+    .trabajo img { width: 200%;}
+
+    .trabajos .col-2 {height: 1vh; display: none;}
+
+    .trabajos img { margin-top: 2rem;}
+
+
+
+}
